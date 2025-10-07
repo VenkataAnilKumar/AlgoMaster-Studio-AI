@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/largest-number/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 bool checkLarger(int a, int b){
     string aa = to_string(a);
@@ -17,7 +17,7 @@ string Solution::largestNumber(const vector<int> &A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     vector<int> sol = A;
     

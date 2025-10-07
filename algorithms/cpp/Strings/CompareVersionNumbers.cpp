@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/compare-version-numbers/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 string extract(int &i, string str){
     if(i >= str.size()){
@@ -56,7 +56,7 @@ int Solution::compareVersion(string A, string B) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     int i = 0, j = 0, first = 1;
     

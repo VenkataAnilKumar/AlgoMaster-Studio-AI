@@ -1,10 +1,10 @@
-// https://www.interviewbit.com/problems/assign-mice-to-holes/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int Solution::mice(vector<int> &A, vector<int> &B) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     if(A.size() == 0){
         return 0;

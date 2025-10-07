@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/copy-list/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 /**
  * Definition for singly-linked list.

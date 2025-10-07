@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/math_bug02/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<vector<int> > Solution::squareSum(int A) {
 	vector<vector<int> > ans;

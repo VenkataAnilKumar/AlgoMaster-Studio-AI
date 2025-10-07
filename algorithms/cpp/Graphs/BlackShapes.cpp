@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/black-shapes/ 
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform 
 
 void dfs(vector<string> A, int i, int j, vector<vector<bool> >& visited, vector<vector<int> >& check){
     if(i < 0 || i >= A.size()){
@@ -23,7 +23,7 @@ int Solution::black(vector<string> &A) {
     // Do not write main() function.
     //Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     if(A.size() == 0){
         return 0;

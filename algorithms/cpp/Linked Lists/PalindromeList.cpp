@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/palindrome-list/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 /**
  * Definition for singly-linked list.

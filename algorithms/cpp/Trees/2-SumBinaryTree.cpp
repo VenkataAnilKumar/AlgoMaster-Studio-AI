@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/2-sum-binary-tree/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 /**
  * Definition for binary tree

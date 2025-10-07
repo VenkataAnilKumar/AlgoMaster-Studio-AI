@@ -1,10 +1,10 @@
-// https://www.interviewbit.com/problems/gas-station/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int Solution::canCompleteCircuit(const vector<int> &gas, const vector<int> &cost) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
 
     int fuel = 0, start_i = 0, sum = 0;
     

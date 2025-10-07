@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/prime-sum/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<int> Solution::primesum(int A) {
     

@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/min-stack/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 stack<int> st;
 stack<int> minSt;

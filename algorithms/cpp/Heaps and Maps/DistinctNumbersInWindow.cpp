@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/distinct-numbers-in-window/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<int> Solution::dNums(vector<int> &A, int B) {
     

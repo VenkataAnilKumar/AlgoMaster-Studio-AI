@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/root-to-leaf-paths-with-sum/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 /**
  * Definition for binary tree
@@ -33,7 +33,7 @@ vector<vector<int> > Solution::pathSum(TreeNode* root, int sum) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     vector<vector<int> > sol;
     vector<int> v;

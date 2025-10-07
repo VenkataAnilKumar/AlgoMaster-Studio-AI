@@ -1,10 +1,10 @@
-// https://www.interviewbit.com/problems/spiral-order-matrix-ii/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<vector<int> > Solution::generateMatrix(int A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     vector<vector<int> >sol(A, vector<int>(A, 0));
     

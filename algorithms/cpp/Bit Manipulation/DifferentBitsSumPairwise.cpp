@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/different-bits-sum-pairwise/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 #define mod 1000000007
 

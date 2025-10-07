@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/array-3-pointers/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int checkMax(int a, int b, int c){
     int max = a;
@@ -16,7 +16,7 @@ int Solution::minimize(const vector<int> &A, const vector<int> &B, const vector<
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     int i = 0, j = 0, k = 0;
     int sol = INT_MAX;

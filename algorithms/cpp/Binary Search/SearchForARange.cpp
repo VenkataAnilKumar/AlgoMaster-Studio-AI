@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/search-for-a-range/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int binarySearch(const vector<int>& A, int key, bool searchFirst){
     int start = 0;
@@ -31,7 +31,7 @@ vector<int> Solution::searchRange(const vector<int> &A, int B) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     vector<int> sol;
     
     sol.push_back(binarySearch(A, B, true));

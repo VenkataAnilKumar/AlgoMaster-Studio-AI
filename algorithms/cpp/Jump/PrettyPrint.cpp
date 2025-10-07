@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/prettyprint/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<vector<int> > Solution::prettyPrint(int A) {
     int size, temp, limit, i, j;

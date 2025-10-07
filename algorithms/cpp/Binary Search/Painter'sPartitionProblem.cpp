@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/painters-partition-problem/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 bool isPossible(long long int mid, vector<int> C, int paint){
     int maxi = 0;
@@ -37,7 +37,7 @@ int Solution::paint(int A, int B, vector<int> &C) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     long long int start = 0, end = 0;
     

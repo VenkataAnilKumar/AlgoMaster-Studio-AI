@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/power-of-two-integers/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 bool Solution::isPower(int A) {
     

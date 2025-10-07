@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/array_bug/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<int> Solution::rotateArray(vector<int> &A, int B) {
 	vector<int> ret;

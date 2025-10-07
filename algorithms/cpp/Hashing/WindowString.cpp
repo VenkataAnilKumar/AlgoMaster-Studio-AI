@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/window-string/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 struct info{
     int freq, arrived;

@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/coin-sum-infinite/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int Solution::coinchange2(vector<int> &A, int B) {
 

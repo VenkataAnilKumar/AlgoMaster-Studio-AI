@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/anti-diagonals/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<vector<int> > Solution::diagonal(vector<vector<int> > &A) {
     

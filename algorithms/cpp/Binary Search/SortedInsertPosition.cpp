@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/sorted-insert-position/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int binary(int lower, int upper, int key, vector<int> &A){
     int mid = (upper+lower)/2;

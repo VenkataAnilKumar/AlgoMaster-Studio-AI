@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/bulbs/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 int Solution::bulbs(vector<int> &A) {
 

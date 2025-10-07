@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/flip/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<int> Solution::flip(string A) {
 

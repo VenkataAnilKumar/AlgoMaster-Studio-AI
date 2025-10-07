@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/grid-unique-paths/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 long long int permute(int x, int y){
     long long int sol = 1;
@@ -21,7 +21,7 @@ int Solution::uniquePaths(int A, int B) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     
     int x = A-1;
     int y = B-1;

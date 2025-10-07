@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/merge-two-sorted-lists-ii/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 bool checkGreater(int A, int B){
     if(A > B){
@@ -11,7 +11,7 @@ void Solution::merge(vector<int> &A, vector<int> &B) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
     int i = 0, j = 0;
     while((i < A.size()) && (j < B.size())){
         bool a = checkGreater(A[i], B[j]);

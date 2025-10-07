@@ -1,4 +1,4 @@
-// https://www.interviewbit.com/problems/nearest-smaller-element/
+// // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 vector<int> Solution::prevSmaller(vector<int> &A) {
 

@@ -1,4 +1,4 @@
-//  https://www.interviewbit.com/problems/math_bug01/
+//  // AlgoMaster-Studio - Advanced Algorithm Learning Platform
 
 // Return 1 if A is prime, else 0
 int Solution::isPrime(int A) {
