@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AlgoMaster-Studio - Revolutionary AI-powered algorithm learning platform with interactive visualizations, code analysis, and smart explanations." />
+    <meta name="keywords" content="algorithms, data structures, AI, machine learning, coding, programming, education, visualization" />
+    <meta name="author" content="AlgoMaster Studio Team" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AlgoMaster-Studio - AI-Powered Algorithm Learning" />
+    <meta property="og:description" content="Revolutionary platform for learning algorithms with AI-powered analysis, interactive visualizations, and smart explanations." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://algomaster.studio" />
+    <meta property="og:image" content="/og-image.png" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AlgoMaster-Studio - AI-Powered Algorithm Learning" />
+    <meta name="twitter:description" content="Learn algorithms with AI-powered analysis and interactive visualizations." />
+    <meta name="twitter:image" content="/twitter-image.png" />
+    
+    <title>AlgoMaster-Studio - Revolutionary AI-Powered Algorithm Learning Platform</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin />
+    
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#2563eb" />
+    
+    <!-- Prevent FOUC -->
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #1f2937;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, sans-serif;
+        text-align: center;
+        padding: 20px;
+      ">
+        <div>
+          <h1>🚀 AlgoMaster-Studio</h1>
+          <p>Please enable JavaScript to experience the revolutionary AI-powered algorithm learning platform.</p>
+          <p>JavaScript is required for interactive visualizations, code analysis, and AI-powered explanations.</p>
+        </div>
+      </div>
+    </noscript>
+    
+    <!-- Loading screen -->
+    <div id="loading-screen" style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: system-ui, sans-serif;
+      z-index: 9999;
+    ">
+      <div style="text-align: center;">
+        <div style="
+          width: 60px;
+          height: 60px;
+          border: 3px solid rgba(255,255,255,0.3);
+          border-top: 3px solid white;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+          margin: 0 auto 20px;
+        "></div>
+        <h2 style="margin: 0; font-size: 24px; font-weight: 600;">🚀 AlgoMaster-Studio</h2>
+        <p style="margin: 10px 0 0; opacity: 0.9;">Loading revolutionary AI-powered learning platform...</p>
+      </div>
+      
+      <style>
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      </style>
+    </div>
+    
+    <div id="root"></div>
+    
+    <!-- Main application script -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Remove loading screen and show content -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          const loadingScreen = document.getElementById('loading-screen');
+          if (loadingScreen) {
+            loadingScreen.style.opacity = '0';
+            loadingScreen.style.transition = 'opacity 0.5s ease-out';
+            setTimeout(() => {
+              loadingScreen.remove();
+              document.documentElement.style.visibility = 'visible';
+              document.documentElement.style.opacity = '1';
+              document.documentElement.style.transition = 'opacity 0.3s ease-in';
+            }, 500);
+          }
+        }, 1000);
+      });
+      
+      // Fallback to remove loading screen after maximum time
+      setTimeout(function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
+          loadingScreen.remove();
+          document.documentElement.style.visibility = 'visible';
+          document.documentElement.style.opacity = '1';
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>
