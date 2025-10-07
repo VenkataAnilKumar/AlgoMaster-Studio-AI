@@ -1,38 +1,73 @@
-# Time Complexity
-Since these questions are all multiple choice I'm going to write down the write answers here
+# Time Complexity Analysis Guide
 
-## Basic Primer
-| Name | Answer |
-| --- | --- |
-| [LOOP_CMPL](https://www.interviewbit.com/problems/loop_cmpl) | O(N + M) time, O(1) space |
-| [NESTED_CMPL](https://www.interviewbit.com/problems/nested_cmpl) | O(N * N) time, O(1) space |
-| [NESTED_CMPL2](https://www.interviewbit.com/problems/nested_cmpl2/) | O(N*N) |
-| [CHOOSE4](https://www.interviewbit.com/problems/choose4/) | X will always be a better choice for large inputs
+Welcome to AlgoMaster-Studio's comprehensive time complexity analysis guide. This section helps you understand and analyze the computational complexity of various algorithms and code patterns.
 
-## Math
-| Name | Answer |
-| --- | --- |
-| [WHILE_CMPL](https://www.interviewbit.com/problems/while_cmpl/) | O(log N)
-| [NESTED_CMPL3](https://www.interviewbit.com/problems/nested_cmpl3/) | O(N)
-| [LOOP_CMPL2](https://www.interviewbit.com/problems/loopcmpl2/) | O(nLogn)
-| [GCD_CMPL](https://www.interviewbit.com/problems/gcdcmpl/) | O(logn)
+## 🚀 Basic Loop Complexity
 
+| Problem Type | Time Complexity | Space Complexity | Description |
+| --- | --- | --- | --- |
+| **Linear Loop** | O(N + M) | O(1) | Sequential loops processing N and M elements |
+| **Nested Loop** | O(N * N) | O(1) | Nested loops creating quadratic time complexity |
+| **Advanced Nested** | O(N²) | O(1) | Complex nested loop patterns |
+| **Optimization Choice** | Variable | O(1) | Algorithm X vs Y comparison for large inputs |
 
-## Compare Functions
-| Name | Answer |
-| --- | --- |
-| [CHOOSE1](https://www.interviewbit.com/problems/choose1/) | n^3 / (sqrt(n))
-| [CHOOSE2](https://www.interviewbit.com/problems/choose2/) | f3, f2, f4, f1
-| [CHOOSE3](https://www.interviewbit.com/problems/choose3/) | c 
+## 📊 Mathematical Complexity
 
-## Function calling itself
-| Name | Answer |
-| --- | --- |
-|[REC_CMPL1](https://www.interviewbit.com/problems/rec_cmpl1/) | O(N)
-|[REC_CMPL2](https://www.interviewbit.com/problems/rec_cmpl2/) | O(2^(R + C))
-|[REC_CMPL2](https://www.interviewbit.com/problems/reccmpl3/) | O(R*C)
+| Algorithm Pattern | Time Complexity | Description |
+| --- | --- | --- |
+| **Logarithmic Pattern** | O(log N) | Dividing problem space repeatedly |
+| **Linear Traversal** | O(N) | Single pass through data structure |
+| **Linearithmic Sort** | O(N log N) | Efficient sorting algorithms |
+| **GCD Algorithm** | O(log N) | Euclidean algorithm for greatest common divisor |
 
-# Amortized 
-| Name | Answer |
-| --- | --- |
-| [AMORTIZED1](https://www.interviewbit.com/problems/amortized1/) | O(N)
+## 🎯 Function Comparison Analysis
+
+| Complexity Function | Growth Rate | Usage Scenario |
+| --- | --- | --- |
+| **Polynomial Growth** | O(N³/√N) | Complex mathematical operations |
+| **Function Ranking** | f₃, f₂, f₄, f₁ | Comparing multiple algorithm approaches |
+| **Optimal Choice** | Constant factors | Selecting best algorithm for given constraints |
+
+## 🔄 Recursive Complexity
+
+| Recursion Type | Time Complexity | Space Complexity | Pattern |
+| --- | --- | --- | --- |
+| **Linear Recursion** | O(N) | O(N) | Single recursive call per level |
+| **Exponential Recursion** | O(2^(R + C)) | O(R + C) | Multiple recursive calls (e.g., naive Fibonacci) |
+| **Dynamic Programming** | O(R × C) | O(R × C) | Memoized recursion with 2D state space |
+
+## ⚡ Amortized Analysis
+
+| Data Structure Operation | Amortized Complexity | Worst Case | Description |
+| --- | --- | --- | --- |
+| **Dynamic Array Resize** | O(1) | O(N) | Average constant time insertion |
+| **Hash Table Operations** | O(1) | O(N) | Expected constant time access |
+| **Splay Tree Operations** | O(log N) | O(N) | Self-adjusting binary search tree |
+
+---
+
+## 🎓 Key Learning Points
+
+### 📈 **Big-O Notation Hierarchy**
+```
+O(1) < O(log N) < O(N) < O(N log N) < O(N²) < O(N³) < O(2^N) < O(N!)
+```
+
+### 🧮 **Common Complexity Patterns**
+- **O(1)**: Array access, hash table lookup
+- **O(log N)**: Binary search, balanced tree operations
+- **O(N)**: Linear search, single loop
+- **O(N log N)**: Efficient sorting (merge sort, heap sort)
+- **O(N²)**: Nested loops, naive sorting algorithms
+- **O(2^N)**: Recursive algorithms without memoization
+
+### 💡 **Optimization Tips**
+1. **Identify bottlenecks**: Focus on the dominant term
+2. **Consider trade-offs**: Time vs. space complexity
+3. **Use appropriate data structures**: Arrays, hash tables, trees
+4. **Apply algorithmic techniques**: Divide and conquer, dynamic programming
+5. **Analyze worst-case scenarios**: Ensure robust performance
+
+---
+
+*This guide is part of AlgoMaster-Studio's comprehensive algorithm learning platform. Practice these concepts with our interactive AI-powered code analyzer!*
