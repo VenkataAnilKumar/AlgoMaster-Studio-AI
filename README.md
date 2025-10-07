@@ -1,8 +1,6 @@
 ﻿<div align="center">
 
-#  AlgoMaster-Studio
-
-<img src="iblogo.png" alt="AlgoMaster Studio Logo" width="120" height="120">
+# 🚀 AlgoMaster-Studio
 
 ### *The World's Most Advanced AI-Powered Algorithm Learning Platform*
 
