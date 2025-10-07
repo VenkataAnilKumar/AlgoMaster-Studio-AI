@@ -1,4 +1,4 @@
-# AlgoMaster-Studio AI Engine - Production Ready Docker Container
+# AlgoMaster-Studio-AI AI Engine - Production Ready Docker Container
 
 FROM python:3.11-slim
 

@@ -107,7 +107,7 @@ performance_benchmarks (id, solution_id, language, execution_time, memory_usage)
 
 ```bash
 # 1. Clone and setup
-git clone https://github.com/VenkataAnilKumar/AlgoMaster-Studio.git
+git clone https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI.git
 cd AlgoMaster-Studio
 
 # 2. Install dependencies

@@ -1,7 +1,7 @@
-# AlgoMaster-Studio Project Structure
+# AlgoMaster-Studio-AI Project Structure
 
 ```
-AlgoMaster-Studio/
+AlgoMaster-Studio-AI/
 ├── 📄 README.md                     # Main project documentation
 ├── 📄 package.json                  # Root package configuration
 ├── 📄 .gitignore                    # Git ignore rules

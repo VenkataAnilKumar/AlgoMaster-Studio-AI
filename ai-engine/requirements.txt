@@ -1,4 +1,4 @@
-# AlgoMaster-Studio AI Engine Dependencies
+# AlgoMaster-Studio-AI AI Engine Dependencies
 # Core Framework
 fastapi==0.104.1
 uvicorn[standard]==0.24.0

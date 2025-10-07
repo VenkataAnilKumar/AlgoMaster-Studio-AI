@@ -1,12 +1,12 @@
-﻿<div align="center">
+<div align="center">
 
-# 🚀 AlgoMaster-Studio
+# ?? AlgoMastBuilt with ?? by [Venkata Anil Kumar](https://github.com/VenkataAnilKumar) and the [AlgoMaster-Studio-AI community](https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI/graphs/contributors)r-Studio
 
 ### *The World's Most Advanced AI-Powered Algorithm Learning Platform*
 
 > **Revolutionizing algorithm education through artificial intelligence, interactive visualizations, and multi-language support**
 
-[![GitHub Stars](https://img.shields.io/github/stars/VenkataAnilKumar/AlgoMaster-Studio?style=for-the-badge&color=gold&logo=github)](https://github.com/VenkataAnilKumar/AlgoMaster-Studio/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/VenkataAnilKumar/AlgoMaster-Studio-AI?style=for-the-badge&color=gold&logo=github)](https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-ff6b6b?style=for-the-badge&logo=openai)](/)
 [![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react)](/)
@@ -33,4 +33,4 @@
 
 This project is licensed under the **MIT License**.
 
-Built with  by [Venkata Anil Kumar](https://github.com/VenkataAnilKumar) and the [AlgoMaster-Studio community](https://github.com/VenkataAnilKumar/AlgoMaster-Studio/graphs/contributors)
+Built with  by [Venkata Anil Kumar](https://github.com/VenkataAnilKumar) and the [AlgoMaster-Studio community](https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI/graphs/contributors)

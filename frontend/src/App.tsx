@@ -51,7 +51,7 @@ const App: React.FC = () => {
         >
           <div className="w-16 h-16 border-4 border-blue-200 border-top-blue-600 rounded-full animate-spin mx-auto mb-4"></div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-            🚀 AlgoMaster-Studio
+            🚀 AlgoMaster-Studio-AI
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
             Initializing AI-powered learning platform...

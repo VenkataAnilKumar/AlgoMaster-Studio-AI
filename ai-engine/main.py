@@ -1,5 +1,5 @@
 """
-AlgoMaster-Studio AI Engine
+AlgoMaster-Studio-AI AI Engine
 Revolutionary AI-powered algorithm learning platform
 """
 
@@ -23,7 +23,7 @@ from utils.logger import setup_logger
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="AlgoMaster-Studio AI Engine",
+    title="AlgoMaster-Studio-AI AI Engine",
     description="Revolutionary AI-powered algorithm analysis and learning platform",
     version="2.0.0",
     docs_url="/docs",
@@ -52,7 +52,7 @@ visualization_generator = VisualizationGenerator()
 @app.on_event("startup")
 async def startup_event():
     """Initialize AI engine services on startup"""
-    logger.info("🚀 AlgoMaster-Studio AI Engine starting up...")
+    logger.info("🚀 AlgoMaster-Studio-AI AI Engine starting up...")
     await code_analyzer.initialize()
     await ai_explainer.initialize()
     logger.info("✅ AI Engine ready for revolutionary algorithm learning!")
@@ -61,7 +61,7 @@ async def startup_event():
 async def root():
     """Health check endpoint"""
     return {
-        "service": "AlgoMaster-Studio AI Engine",
+        "service": "AlgoMaster-Studio-AI AI Engine",
         "status": "🚀 Revolutionary AI-powered algorithm learning",
         "version": "2.0.0",
         "timestamp": datetime.now().isoformat(),

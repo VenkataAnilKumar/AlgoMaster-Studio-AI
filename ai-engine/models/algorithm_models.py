@@ -1,5 +1,5 @@
 """
-Pydantic models for AlgoMaster-Studio AI Engine
+Pydantic models for AlgoMaster-Studio-AI AI Engine
 """
 
 from pydantic import BaseModel, Field

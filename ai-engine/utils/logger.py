@@ -1,5 +1,5 @@
 """
-Comprehensive logging utilities for AlgoMaster-Studio AI Engine
+Comprehensive logging utilities for AlgoMaster-Studio-AI AI Engine
 """
 
 import logging
@@ -386,7 +386,7 @@ api_logger = APILogger()
 def log_startup_info():
     """Log startup information"""
     main_logger = setup_logger("main")
-    main_logger.info("🚀 AlgoMaster-Studio AI Engine starting up...")
+    main_logger.info("🚀 AlgoMaster-Studio-AI AI Engine starting up...")
     main_logger.info(f"📁 Logs directory: {LOGS_DIR}")
     main_logger.info("📊 Performance monitoring enabled")
     main_logger.info("🔒 Security monitoring enabled")
@@ -395,7 +395,7 @@ def log_startup_info():
 def log_shutdown_info():
     """Log shutdown information"""
     main_logger = setup_logger("main")
-    main_logger.info("🔄 AlgoMaster-Studio AI Engine shutting down...")
+    main_logger.info("🔄 AlgoMaster-Studio-AI AI Engine shutting down...")
     main_logger.info("💾 Flushing all log handlers...")
 
 # Error tracking utilities

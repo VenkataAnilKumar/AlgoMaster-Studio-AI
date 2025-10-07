@@ -13,7 +13,7 @@ int Solution::knight(int N, int M, int x1, int y1, int x2, int y2) {
     // Do not write main() function.
     //Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio-AI for more details
     int dx[]={-2,-1,1,2,-2,-1,1,2};
     int dy[]={-1,-2,-2,-1,1,2,2,1};
     queue<cell> q;

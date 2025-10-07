@@ -4,7 +4,7 @@ int Solution::lengthOfLastWord(const string &A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio-AI for more details
     int length = 0;
     for(int i = A.size()-1 ; i >=0; i--){
         char c = A[i];

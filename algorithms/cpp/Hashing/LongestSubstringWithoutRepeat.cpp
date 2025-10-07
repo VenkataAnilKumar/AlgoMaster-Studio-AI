@@ -4,7 +4,7 @@ int Solution::lengthOfLongestSubstring(string A) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio for more details
+    // Still have a doubt. Checkout github.com/VenkataAnilKumar/AlgoMaster-Studio-AI for more details
 
     unordered_map<char, int> myMap;
     int temp = 0, sol = 0, i = 0, j = 0;

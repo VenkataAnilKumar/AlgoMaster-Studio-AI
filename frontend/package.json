@@ -1,5 +1,5 @@
 {
-  "name": "algomaster-studio-frontend",
+  "name": "AlgoMaster-Studio-AI-frontend",
   "version": "2.0.0",
   "description": "Revolutionary AI-powered algorithm learning platform - Frontend",
   "type": "module",
@@ -95,10 +95,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio.git"
+    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI.git"
   },
   "bugs": {
-    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio/issues"
+    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI/issues"
   },
   "homepage": "https://algomaster.studio"
 }

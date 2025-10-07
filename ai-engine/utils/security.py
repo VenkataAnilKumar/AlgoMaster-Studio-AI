@@ -1,5 +1,5 @@
 """
-Security utilities for AlgoMaster-Studio AI Engine
+Security utilities for AlgoMaster-Studio-AI AI Engine
 """
 
 import os
@@ -16,7 +16,7 @@ logger = setup_logger("security")
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 # JWT Configuration
-SECRET_KEY = os.getenv("JWT_SECRET_KEY", "algomaster-studio-super-secret-key-change-in-production")
+SECRET_KEY = os.getenv("JWT_SECRET_KEY", "AlgoMaster-Studio-AI-super-secret-key-change-in-production")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 

@@ -16,11 +16,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio.git"
+    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI.git"
   },
-  "homepage": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio#readme",
+  "homepage": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI#readme",
   "bugs": {
-    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio/issues"
+    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio-AI/issues"
   },
   "scripts": {
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:ai\"",
