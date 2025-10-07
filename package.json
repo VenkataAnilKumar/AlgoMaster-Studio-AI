@@ -1,0 +1,62 @@
+{
+  "name": "algomaster-studio",
+  "version": "1.0.0",
+  "description": "The World's Most Advanced Algorithm Learning Platform",
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "interview-preparation",
+    "coding-challenges",
+    "ai-powered",
+    "multi-language",
+    "interactive-learning",
+    "performance-benchmarking"
+  ],
+  "author": "Venkata Anil Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio.git"
+  },
+  "homepage": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio#readme",
+  "bugs": {
+    "url": "https://github.com/VenkataAnilKumar/AlgoMaster-Studio/issues"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:ai\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:ai": "cd ai-engine && python -m uvicorn main:app --reload --port 8000",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:backend": "cd backend && npm run lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "docker:dev": "docker-compose -f docker-compose.dev.yml up",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
