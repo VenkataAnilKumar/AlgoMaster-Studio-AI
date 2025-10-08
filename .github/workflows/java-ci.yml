@@ -1,0 +1,60 @@
+﻿name: Java CI (algorithms/Java)
+
+on:
+  push:
+    paths:
+      - 'algorithms/Java/**'
+  pull_request:
+    paths:
+      - 'algorithms/Java/**'
+
+jobs:
+  build-java:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Find and build Java code
+        run: |
+          set -e
+          echo "Searching for Maven/Gradle projects or .java files under algorithms/Java"
+          any=false
+
+          # Find Maven projects
+          for d in $(find algorithms/Java -type f -name 'pom.xml' -printf '%h\n' 2>/dev/null || true); do
+            echo "Found Maven project in $d"
+            mvn -B -f "$d/pom.xml" test || exit 1
+            any=true
+          done
+
+          # Find Gradle projects
+          for d in $(find algorithms/Java -type f -name 'build.gradle' -printf '%h\n' 2>/dev/null || true); do
+            echo "Found Gradle project in $d"
+            if [ -f "$d/gradlew" ]; then
+              (cd "$d" && chmod +x ./gradlew && ./gradlew build) || exit 1
+            else
+              (cd "$d" && gradle build) || exit 1
+            fi
+            any=true
+          done
+
+          # If no build files found, try compiling plain .java files
+          if [ "$any" = false ]; then
+            if find algorithms/Java -name '*.java' | grep -q .; then
+              echo "Compiling all .java files found under algorithms/Java"
+              mkdir -p algorithms/Java/build/classes
+              find algorithms/Java -name '*.java' > sources.txt
+              javac -d algorithms/Java/build/classes @sources.txt || exit 1
+              any=true
+            fi
+          fi
+
+          if [ "$any" = false ]; then
+            echo "No Java sources found. Skipping build."
+          fi
